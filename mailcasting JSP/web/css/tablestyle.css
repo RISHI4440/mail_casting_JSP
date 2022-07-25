@@ -1,0 +1,21 @@
+/*BOX STYLE*/			/*	INDEX	*/
+table.box-style 
+	{
+	box-shadow: rgba(0,0,0,0.4) 10px 10px 010px; font-family:"Lucida Sans Unicode", "Lucida Grande", Sans-Serif;font-size:16px;min-width:1150px;text-align:center;border-collapse:collapse;margin-bottom:25px; 
+	}
+
+table.box-style th 
+	{
+		font-size:18px;font-weight:normal;background:#ccc;border-top:4px solid #ddd;border-bottom:1px solid #fff;color:#666666;padding:10px; text-align:center;
+	}
+
+table.box-style td 
+	{
+		background:#f9f9f9;border-bottom:1px solid #fff;color:#999;border-top:1px solid transparent;padding:8px 10px;
+	}
+
+
+table.box-style tr:hover td
+	{
+		border-radius:8px; background:#eee;color:#444;
+	}
